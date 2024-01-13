@@ -1,0 +1,9 @@
+Faça uma classe "Pessoa", que deve conter os seguintes atributos:
+nome
+data_nascimento(deve ser do tipo date)
+Peso
+altura
+
+2. Faça um metodo chamado calcular_idade() - que irá retornar a idade da pessoa que está chamando
+3. faca um metodo chamado "calcular_imc() que irá retornar o imc da pessoa
+4. Realize um programa que irá cadastrar 3 pesssoas, armazena-las em uma lista.
