@@ -2,7 +2,7 @@ from datetime import datetime as dt
 class Pessoa:
     def __init__(self,nome:str,data_nascimento: str, peso: float, altura: float ) -> None:
         self.nome = nome
-        self.data_nascimento = dt.strptime(self.data_nascimento, '%d/%m/%Y').date()
+        self.data_nascimento = dt.strptime(data_nascimento, '%d/%m/%Y').date()
         self.peso = peso
         self.altura = altura
         self.calcular_idade()
