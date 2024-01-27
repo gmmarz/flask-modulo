@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculo do IMC</title>
+</head>
+<body>
+    <h1>Calculo do IMC</h1>
+    <!--Formulário para aquisitar dados-->
+    <form action="/" method="POST">
+        <div>
+            <label for ="peso1">Peso:</label>
+            <input type="number" name="peso1" id="peso1" step="0.01" required>
+        </div>
+        <div>
+            <label for="altura1">Altura:</label>
+            <input type="number" name="altura1" id="altura1" step="0.01" required>
+        </div>
+        <div>
+            <button type="submit">Calcular IMC</button>
+        </div>
+    </form>
+    <h2>Resultado</h2>
+    <div>
+        <p>Resultado IMC: {{imc}}</p><br>
+        <p>Categoria: {{categoria}}</p>
+    </div>
+</body>
+</html>
