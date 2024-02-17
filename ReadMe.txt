@@ -2,6 +2,7 @@ dontpad
 
 A1 - flask-sm1301
 A2 - flask-sm2001
+A4 - flask-sm1702
 
 As coisas para está ok
 html:
